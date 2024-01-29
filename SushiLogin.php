@@ -1,6 +1,4 @@
 <?php 
-    include "includes\ConnectSQLite.php"; 
-    /*
     try {
     // Connect to SQLite database
     $db = new PDO('sqlite:C:\xampp\htdocs\test\db\DATABASE\SUHSI.db');
@@ -14,7 +12,7 @@
         echo "Connection failed: " . $e->getMessage(); 
         echo "<br>";
     }
-    */
+    
     $db_name =  "aresu5a"; /// fornisco il db dove trovare i dati sugli utenti
     $tab_nome ="Users"; /// fornisco la tabella utenti
     $User = $_GET["User"];
