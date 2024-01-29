@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LogIn</title>
+        <style>
+            #login
+            {
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 20%;
+                color: white;
+                
+            }
+            
+            body
+            {
+                background-image: url(https://r4.wallpaperflare.com/wallpaper/694/226/570/nature-sky-digital-art-mountains-wallpaper-a8b62d2830907c48303c31be7852f4da.jpg);
+                background-size: 100% ;
+                align-items: center;
+                justify-content: center;
+                justify-items: center;
+                display: flex;
+                font-family: Helvetica;
+ 
+            }
+            #form
+            {
+                padding: 2%;
+                /* From https://css.glass */
+                background: rgba(255, 255, 255, 0.23);
+                border-radius: 16px;
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(5.9px);
+                -webkit-backdrop-filter: blur(5.9px);
+                border: 1px solid rgba(255, 255, 255, 1);
+                width: 20%;
+            }
+
+            .inputfields
+            {
+                margin-bottom: 20px;
+                height: 5%;
+                background-color: transparent;
+                outline: none;
+                border: rgba(255, 255, 255, 0.459) 1px solid;
+                color: white;
+                width: 100%;
+                border-radius: 20px;
+                padding-left: 5%;
+                
+            }
+            ::placeholder 
+            {
+            color: whitesmoke;
+            
+            }   
+            #submit
+            {
+                width: 100%;
+                height: 3%;
+                margin-bottom: 3%;
+                border-radius: 20px;
+                outline: none;
+                border: white solid 2px;
+            }
+            #Signin
+            {
+                color: white;
+                text-align: center;
+            }
+            a:link {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+            }
+
+            a:visited {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+            }
+
+            a:hover {
+            color: white;
+            background-color: transparent;
+            text-decoration: underline;
+            }
+
+            a:active {
+            color: white;
+            background-color: transparent;
+            text-decoration: underline;
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        
+        <form id="form" action="SushiLogin.php">
+            <h1 id="login">
+                Login
+            </h1>
+
+                 <input class="inputfields" name="User" type="text" placeholder="    Username           ">  
+                 <input class="inputfields" name="password" type="password" placeholder="    Password"> </input>
+
+            <input id="submit" type="submit" >
+            <div id="Signin"> 
+                Non hai ancora un Account? <b><a href="SignIn.html">  Sign in</a></b>
+                
+            </div>
+        </form>
+        
+    </body>
+</html>
