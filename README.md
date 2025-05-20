@@ -4,9 +4,8 @@ questo NON è un sito completo, mancano molte funzionalità come la possilità d
   <img src="https://github.com/Zomerzz/Zomerzz.github.io/assets/158077377/c44d99c0-6a89-40d7-b00f-a53579571a55" alt="Display del interfaccia del sito Web">
   <p>Questa è l'interfaccia grafica del sito</p>
 </div>
- 
-
-
-si possono trovare delle CARD, per ogni oggetto nel menù
-![image](https://github.com/Zomerzz/Zomerzz.github.io/assets/158077377/96e5e6b0-1f99-4c4e-a003-7a66bf55ee14)
+ <div style="Display:flex;">
+  <img src="https://github.com/Zomerzz/Zomerzz.github.io/assets/158077377/96e5e6b0-1f99-4c4e-a003-7a66bf55ee14" alt="Display di una Card Autogenerata del sito Web">
+  <p>si possono trovare delle CARD, per ogni oggetto nel menù, generate automaticamente dal sito tramite chiamate al DB MaraiaDB</p>
+</div>
 
